@@ -3,7 +3,7 @@ public class Bicycle extends BaseTransport {
     public Bicycle(String modelName, int whillsCount) {
         super(modelName, whillsCount);
     }
-/*апывап*/
+
     @Override
     public void Сheck(Car car, Bicycle bicycle, Truck truck) {
         if (truck != null) {
