@@ -1,4 +1,4 @@
-public class Main implements Method {
+public class Main {
     public static void main(String[] args) {
         Car car1 = new Car("car1", 1);
         Car car2 = new Car("car2", 2);
@@ -8,7 +8,5 @@ public class Main implements Method {
 
         Bicycle bicycle5 = new Bicycle("bicycle5", 5);
         Bicycle bicycle6 = new Bicycle("bicycle6", 6);
-
-        Method.printCheck(car1, bicycle5, truck3);
     }
 }

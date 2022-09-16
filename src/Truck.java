@@ -1,17 +1,16 @@
-public class Truck extends Wcmn {
+public class Truck extends BaseTransport {
     public Truck(String modelName, int whillsCount) {
         super(modelName, whillsCount);
     }
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
+    @Override
+    public void Сheck(Car car, Bicycle bicycle, Truck truck) {
+        if (truck != null) {
+            System.out.println("Мы обслуживаем " + getModelName());
+            System.out.println("Проверяем прицеп");
+            System.out.println("Проверяем двигатель");
+            System.out.println("Меняем покрышку");
+            System.out.println();
+        }
     }
 }
