@@ -6,8 +6,8 @@ public class Car extends BaseTransport {
 
     @Override
     public void Сheck(Car car, Bicycle bicycle, Truck truck) {
-        if (truck != null) {
-            System.out.println("Мы обслуживаем " + getModelName());
+        if (car != null) {
+            System.out.println("Мы обслуживаем " + car.getModelName());
             System.out.println("Проверяем двигатель");
             System.out.println("Меняем покрышку");
             System.out.println();
