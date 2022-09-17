@@ -8,5 +8,12 @@ public class Main {
 
         Bicycle bicycle5 = new Bicycle("bicycle5", 5);
         Bicycle bicycle6 = new Bicycle("bicycle6", 6);
+
+        car1.check();
+        car2.check();
+        truck3.check();
+        truck4.check();
+        bicycle5.check();
+        bicycle6.check();
     }
 }

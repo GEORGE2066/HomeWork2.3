@@ -5,12 +5,10 @@ public class Car extends BaseTransport {
     }
 
     @Override
-    public void Сheck(Car car, Bicycle bicycle, Truck truck) {
-        if (car != null) {
-            System.out.println("Мы обслуживаем " + car.getModelName());
-            System.out.println("Проверяем двигатель");
-            System.out.println("Меняем покрышку");
-            System.out.println();
-        }
+    public void check() {
+        System.out.println("Мы обслуживаем " + getModelName());
+        System.out.println("Проверяем двигатель");
+        System.out.println("Меняем покрышку");
+        System.out.println();
     }
 }
